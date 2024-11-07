@@ -2,8 +2,10 @@
 node_modules/
 
 # Build output
-build/
 dist/
+
+# Vite cache
+.vite/
 
 # Environment variables
 .env
@@ -21,8 +23,20 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Editor directories and files
+# IDE/editor directories and files
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous files
+*.tgz
+*.zip
+*.tar.gz
+
+# Other temporary files
+tmp/
+temp/

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #242424;
+  /* background-color: #242424; */
 }
 .header {
   display: flex; /* Align items in a row */
